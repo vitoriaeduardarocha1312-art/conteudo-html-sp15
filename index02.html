@@ -1,34 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
     <head>
-        <title>Conteudo aula06n - HTML</title>
+        <title>Conteudo Aula08 - HTML</title>
+    <style>
+
+        /* Mudando estilos de link */
+
+     /* a:link {
+        color: orangered;
+        text-decoration: none;
+     }
+     
+     a:visited {
+        color: greenyellow;
+        tect-decoration: none;
+     }
+     
+     a:hover {
+        color: darkslategray;
+        text-decoration: underline;
+     }
+     
+     a:active {
+        color:mediumvioletred;
+        border: 2px solid mediumvioletred;
+     } */
+     
+     /* Transformando link em botão com estilos */
+     
+     a:link, a:visited {
+        background-color: crimson;
+        color: bisque;
+        text-decoration: none;
+        padding: 15px 25px;
+        display: inline-block;
+        border: 4px solid #000;
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: bold;
+        
+        }
+
+        a:hover, a:active {
+        background-color: bisque;
+        color: #000;
+        border: 4px solid crimson;
+        transition: .3s;
+      }
+
+      a:active {
+        box-shadow: inset 0 0 2px 0 #000000;
+      }
+
+     </style>
+    
     </head>
     <body>
 
-<h1>Comentários no HTML</h1>
+     <h1>Mudando estilo de link</h1>
 
-<!--Isso é um comentário-->
+     <a href="###">Isso é um link</a>
 
-<p>Isso é um paragrafo</p>
+     <hr>
 
-<!--Continuação do conteudo-->
+     <h3>Definindo estilo de link</h3>
 
-<hr>
+     <a href="###">Isso é um link</a>
 
-<h3>Ocultando conteudo com comentarios:</h3>
+     <hr>
 
-<p>Isso é um paragrafo</p>
-<!-- <p>Isso é um paragrafo</p>
-<p>Isso é um paragrafo</p>
-<p>Isso é um paragrafo</p>
-<p>Isso é um paragrafo</p> -->
+     <h3>definindo estilo de botão em link</h3>
 
-<hr> 
+     <a href="###">link</a>
 
-<h3>Ocultando parte de um elemento com o comentario</h3>
-
-<p>Sorria <!-- e acene --> </p>
-
-
-</body>
+    </body>
 </html>
