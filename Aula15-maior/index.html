@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aula15 - HTML</title>
+    </head>
+    <body>
+
+    <h1>JavaScript no HTML</h1>
+
+    <h3>Exemplo de elemento de novo script no HTML</h3>
+
+    <p id="meu-paragrafo"></p>
+    
+    <button onclick="adicionarConteudo()">Adicionar Conteudo</button>
+
+    <script>
+
+   function adicionarConteudo() {
+    document.getElementById ("meu-paragrafo").innerHTML = "só se vive uma vez!";
+   }
+
+    </script>
+
+    <noscript>Desculpe! O seu JavaScript esta desabilitado</noscript>
+
+    </body>
+</html>
