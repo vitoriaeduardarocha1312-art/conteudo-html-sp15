@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo Aula16 - HTML</title>
+
+   <style>
+
+   * {
+    box-sizing: border-box;
+   }
+
+   .esq {
+    background-color: aqua;
+    padding:20px;
+    widtH: 20%;
+    float: left;
+   }
+
+   .meio {
+    background-color: blueviolet;
+    padding:20px;
+    width: 60%;
+    float: left;
+   }
+
+   .dir {
+    background-color: cornflowerblue;
+    padding: 20px;
+    width: 20%;
+    float: left;
+   }
+
+   @media screen and (max-width: 80px) {
+
+   .esq, .meio, .dir {
+    width: 100%
+   }
+
+   }
+
+   </style>
+
+
+</head>
+<body>
+    
+  <h1>Responsividade no HTML</h1>
+
+  <h3>imagem responsiva com width: 100;</h3>
+
+  <img src="renascinamento html.jpg" style="width: 100%;">
+
+  <hr>
+
+  <h3>Imagem responsiva com o max-width: 100px;</h3>
+
+  <img src="renascinamento html.jpg" style="max-width: 100%;">
+
+  <hr>
+  
+  <h3 style="fot-size: 5vw;">responsivo com a unidade de medida vw</h3>
+
+  <p style="font-size: 3vw">Carne, unha, alma gemêa</p>
+
+  <hr>
+
+  <h3>Responsividade com media query</h3>
+
+  <div class="esq">
+    <p>div esquerda</p>
+  </div>
+  <div class="meio">
+    <p>div centro</p>
+  </div>
+  <div class="dir">
+    <p>div direita</p>
+  </div>
+
+  
+</body>
+</html>
